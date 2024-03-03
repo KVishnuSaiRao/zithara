@@ -4,7 +4,7 @@ import './App.css';
 
 const CustomerTable = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [sortOption, setSortOption] = useState('sno'); // Default sort option is by S.No
+  const [sortOption, setSortOption] = useState('sno'); 
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 20;
   const indexOfLastRecord = currentPage * pageSize;
